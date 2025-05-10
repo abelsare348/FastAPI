@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  newfastapi:
+    image: newfastapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
